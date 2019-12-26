@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let item of webServiceList">
+        <a routerLink="/services/web/{{item.link}}">
+        {{item.value}}
+        </a>
+    </li>
+</ul>
+<p class="p-3 text-bold">
+    {{description}}
+</p>
